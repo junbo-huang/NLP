@@ -37,6 +37,7 @@ int main(int argc, char* argv[]) {
 
 		//std::cout << messages.size() << std::endl;
 
+		//testing
 	}
 
 	return 1;

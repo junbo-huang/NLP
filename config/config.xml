@@ -1,0 +1,13 @@
+<config>
+	<input_path>../input/data.xml</input_path>
+	<output_path>../output/</output_path>
+	
+	<templates>
+		<template Type = "Tweet">../templates/Tweet.xml</template>
+		<template Type = "PhoneCall">../templates/PhoneCall.xml</template>
+		<template Type = "Facebook">../templates/Facebook.xml</template>
+		<template Type = "TextMessage">../templates/TextMessage.xml</template>
+	</templates>
+
+	
+</config>

@@ -1,0 +1,12 @@
+xmlreader_light xml;
+	if (!xml.load(xi_config_filename))
+	{
+		xo_message = "Cannot open " + xi_config_filename;
+		return false;
+	}
+
+	std::string scenario_file = xmlreader_light::string_type_to_string(xml.get_value<string_type>(_S("config/scenario"), _S("")));
+	
+	auto lat_node = xml.get_node(_S("receiver/position_lat"));
+	
+	rec_x_lat = xml.get_value<double>(_S("receiver/position_lat"), 0);

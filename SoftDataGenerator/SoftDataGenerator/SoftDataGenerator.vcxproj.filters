@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\XmlHandle">
+      <UniqueIdentifier>{74f38563-1d3d-41fe-b665-1504d951cb2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XmlHandle">
+      <UniqueIdentifier>{9544b467-5581-4147-b86e-69fd668dce40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{362c8310-317e-4973-be66-95f53dd85d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{e1e37b48-68b4-4eb9-9709-8d1e2e6ec005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WriteSoftData">
+      <UniqueIdentifier>{8f9e1d34-19a5-478b-942a-62aae0887c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WriteSoftData">
+      <UniqueIdentifier>{46ff6001-e117-44ea-883d-05ce9c982bf8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\config.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\writeSoftData.cpp">
+      <Filter>Source Files\WriteSoftData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\readXmlData.cpp">
+      <Filter>Source Files\XmlHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="rand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\helper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\readXmlData.hpp">
+      <Filter>Header Files\XmlHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\writeSoftData.hpp">
+      <Filter>Header Files\WriteSoftData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\config.hpp">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

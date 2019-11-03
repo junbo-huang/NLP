@@ -1,0 +1,47 @@
+<Affiliations>
+	<Affiliation type = 'Nationality'>
+		<Name name = 'Canadian'/>
+		<Name name = 'American'/>
+		<Name name = 'Irish'/>
+		<Name name = 'Brazilian'/>
+		<Name name = 'Turkish'/>
+		<Name name = 'French'/>
+	</Affiliation>
+	<Affiliation type = 'Religion'>
+		<Name name = 'Judaism'/>
+		<Name name = 'Christianity'/>
+		<Name name = 'Islam'/>
+		<Name name = 'Hinduism'/>
+		<Name name = 'Jainism'/>
+		<Name name = 'Buddhism'/>
+	</Affiliation>
+	<Affiliation type = 'Political View'>
+		<Name name = 'Liberal'/>
+		<Name name = 'Conservative'/>
+		<Name name = 'Democratic'/>
+		<Name name = 'Green Party'/>
+		<!-- <Name name = 'Christian Heritage'/> -->
+		<!-- <Name name = 'Communist Party of Canada'/>	 -->
+	</Affiliation>
+	<Affiliation type = 'Sex'>
+		<Name name = 'Male'/>
+		<Name name = 'Female'/>
+	</Affiliation>
+	<Affiliation type = 'Citizenships'>
+		<Name name = 'Canada'/>
+		<Name name = 'USA'/>
+		<Name name = 'UK'/>
+		<Name name = 'Ireland'/>
+		<Name name = 'France'/>
+		<Name name = 'Turkey'/>
+		<Name name = 'China'/>
+		<Name name = 'India'/>
+		<Name name = 'Iran'/>
+	</Affiliation>
+	<Affiliation type = 'Job'>
+		<Name name = 'Doctor'/>
+		<Name name = 'Engineer'/>
+		<Name name = 'Photographer'/>
+		<Name name = 'Teacher'/>
+	</Affiliation>
+</Affiliations>

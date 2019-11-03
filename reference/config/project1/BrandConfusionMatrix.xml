@@ -1,0 +1,50 @@
+<confusionMatrix default-diagonal-Values="0.5">
+	<row value = "Ford">
+		<column value ="Ford" prob="0.5"/>
+		<column value ="Fiat" prob="0.1"/>
+		<column value ="Kia" prob="0.1"/>
+		<column value ="GM" prob="0.1"/>
+		<column value ="Nissan" prob="0.1"/>
+		<column value ="Audi" prob="0.1"/>
+	</row>
+	<row value = "Fiat">
+		<column value ="Fiat" prob="0.5"/>
+		<column value ="Ford" prob="0.1"/>
+		<column value ="Kia" prob="0.1"/>
+		<column value ="GM" prob="0.1"/>
+		<column value ="Nissan" prob="0.1"/>
+		<column value ="Audi" prob="0.1"/>							
+	</row>
+	<row value = "Kia">
+		<column value ="Kia" prob="0.5"/>
+		<column value ="Ford" prob="0.1"/>
+		<column value ="Fiat" prob="0.1"/>
+		<column value ="GM" prob="0.1"/>
+		<column value ="Nissan" prob="0.1"/>
+		<column value ="Audi" prob="0.1"/>
+	</row>
+	<row value = "GM">
+		<column value ="GM" prob="0.5"/>
+		<column value ="Ford" prob="0.1"/>
+		<column value ="Fiat" prob="0.1"/>
+		<column value ="Kia" prob="0.1"/>
+		<column value ="Nissan" prob="0.1"/>
+		<column value ="Audi" prob="0.1"/>
+	</row>
+	<row value = "Nissan">
+		<column value ="Nissan" prob="0.5"/>
+		<column value ="Ford" prob="0.1"/>
+		<column value ="Fiat" prob="0.1"/>
+		<column value ="Kia" prob="0.1"/>
+		<column value ="GM" prob="0.1"/>
+		<column value ="Audi" prob="0.1"/>
+	</row>
+	<row value = "Audi">
+		<column value ="Audi" prob="0.5"/>
+		<column value ="Ford" prob="0.1"/>
+		<column value ="Fiat" prob="0.1"/>
+		<column value ="Kia" prob="0.1"/>
+		<column value ="GM" prob="0.1"/>
+		<column value ="Nissan" prob="0.1"/>
+	</row>
+</confusionMatrix>

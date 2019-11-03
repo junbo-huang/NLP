@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <map>
 #include "helper.hpp"
 #include "Structures.h"
 #include "xmlreader_light.hpp"
@@ -14,25 +15,22 @@ class dataReader {
 
 private:
 
-	xmlreader_light reader;
+	xmlreader_light message_reader;
+	xmlreader_light sensor_aff_reader;
+
+	xmlreader_light template_file_reader;
 
 
-	/*std::vector<reportInfo> reports;
-	std::vector<eventType1> event1;
-	std::vector<eventType2> event2;
-	std::vector<eventType1> event3;*/
-
-
-	void read_nodes(xmlreader_light::node_type node, std::vector<Info>& infos);
+	void get_message_data(xmlreader_light::node_type node, std::vector<Info>& infos);
 
 public:
 
-	dataReader();
-	dataReader(std::string dataFile);
+	dataReader(std::string inputPath);
 	~dataReader();
 
-	bool read_data(Messages* mesPtr);
-	/*Messages get_messages() { return messages; }*/
+	bool get_data(Messages* mesPtr);
+	bool get_sensor_aff(std::map<std::string, std::map<std::string, std::string>>& aff_map);
+	bool get_template_data(std::map<std::string, std::vector<std::string>>& templateFiles);
 
 };
 

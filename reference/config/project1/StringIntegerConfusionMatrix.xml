@@ -1,0 +1,150 @@
+<confusionMatrix>
+	
+	<row value = "A">
+		<column value ="A" prob="1"/>
+	</row>
+	<row value = "B">
+		<column value ="B" prob="0.5"/>
+		<column value ="D" prob="0.2"/>	
+		<column value ="3" prob="0.3"/>						
+	</row>
+	<row value = "C">
+		<column value ="C" prob="0.5"/>
+		<column value ="O" prob="0.3"/>
+		<column value ="Q" prob="0.1"/>
+		<column value ="0" prob="0.1"/>	
+	</row>
+	<row value = "D">
+		<column value ="D" prob="0.6"/>
+		<column value ="O" prob="0.4"/>
+	</row>
+	<row value = "E">
+		<column value ="E" prob="0.6"/>
+		<column value ="F" prob="0.4"/>
+	</row>
+	<row value = "F">
+		<column value ="F" prob="0.6"/>
+		<column value ="E" prob="0.4"/>
+	</row>
+	<row value = "G">
+		<column value ="G" prob="0.6"/>
+		<column value ="C" prob="0.4"/>
+	</row>
+		<row value = "H">
+		<column value ="H" prob="1"/>
+	</row>
+	<row value = "I">
+		<column value ="I" prob="0.5"/>
+		<column value ="L" prob="0.3"/>
+		<column value ="1" prob="0.2"/>
+	</row>
+	<row value = "J">
+		<column value ="J" prob="1"/>
+	</row>
+	<row value = "K">
+		<column value ="K" prob="1"/>
+	</row>
+	<row value = "L">
+		<column value ="L" prob="0.5"/>
+		<column value ="I" prob="0.3"/>
+		<column value ="1" prob="0.2"/>
+	</row>
+	<row value = "M">
+		<column value ="M" prob="0.6"/>
+		<column value ="N" prob="0.4"/>
+	</row>
+	<row value = "N">
+		<column value ="N" prob="0.6"/>
+		<column value ="M" prob="0.4"/>
+	</row>
+	<row value = "O">
+		<column value ="O" prob="0.5"/>
+		<column value ="C" prob="0.3"/>
+		<column value ="Q" prob="0.2"/>
+	</row>
+	<row value = "P">
+		<column value ="P" prob="0.6"/>
+		<column value ="B" prob="0.4"/>
+	</row>
+	<row value = "Q">
+		<column value ="Q" prob="0.6"/>
+		<column value ="O" prob="0.4"/>
+		<column value ="0" prob="0.4"/>
+	</row>
+	<row value = "R">
+		<column value ="R" prob="1"/>
+	</row>
+	<row value = "S">
+		<column value ="S" prob="1"/>
+	</row>
+	<row value = "T">
+		<column value ="T" prob="0.6"/>
+		<column value ="I" prob="0.4"/>
+	</row>
+	<row value = "U">
+		<column value ="U" prob="0.6"/>
+		<column value ="V" prob="0.4"/>
+	</row>
+	<row value = "V">
+		<column value ="V" prob="0.5"/>
+		<column value ="W" prob="0.3"/>
+		<column value ="U" prob="0.2"/>
+	</row>
+	<row value = "W">
+		<column value ="W" prob="0.6"/>
+		<column value ="V" prob="0.4"/>
+	</row>
+	<row value = "X">
+		<column value ="X" prob="1"/>
+	</row>
+	<row value = "Y">
+		<column value ="Y" prob="1"/>
+	</row>
+	<row value = "Z">
+		<column value ="Z" prob="1"/>
+	</row>
+	<row value = "1">
+		<column value ="1" prob="0.6"/>
+		<column value ="I" prob="0.4"/>
+	</row>
+	<row value = "2">
+		<column value ="2" prob="0.6"/>
+		<column value ="5" prob="0.4"/>						
+	</row>
+	<row value = "3">
+		<column value ="3" prob="0.5"/>
+		<column value ="8" prob="0.3"/>
+		<column value ="9" prob="0.1"/>
+		<column value ="B" prob="0.1"/>
+	</row>
+	<row value = "4">
+		<column value ="4" prob="1"/>
+	</row>
+	<row value = "5">
+		<column value ="5" prob="0.5"/>
+		<column value ="6" prob="0.3"/>
+		<column value ="2" prob="0.2"/>
+	</row>
+	<row value = "6">
+		<column value ="6" prob="0.5"/>
+		<column value ="9" prob="0.3"/>
+		<column value ="5" prob="0.2"/>
+	</row>
+	<row value = "7">
+		<column value ="7" prob="1"/>
+	</row>
+		<row value = "8">
+		<column value ="8" prob="0.6"/>
+		<column value ="9" prob="0.4"/>
+	</row>
+	<row value = "9">
+		<column value ="9" prob="0.5"/>
+		<column value ="6" prob="0.3"/>
+		<column value ="3" prob="0.2"/>
+	</row>
+	<row value = "0">
+		<column value ="0" prob="0.5"/>
+		<column value ="O" prob="0.3"/>
+		<column value ="Q" prob="0.2"/>
+	</row>
+</confusionMatrix>

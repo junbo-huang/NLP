@@ -1,12 +1,29 @@
 <config>
-	<input_path>../input/data.xml</input_path>
+	<input_path>../input/</input_path>
 	<output_path>../output/</output_path>
 	
 	<templates>
-		<template Type = "Tweet">../templates/Tweet.xml</template>
-		<template Type = "PhoneCall">../templates/PhoneCall.xml</template>
-		<template Type = "Facebook">../templates/Facebook.xml</template>
-		<template Type = "TextMessage">../templates/TextMessage.xml</template>
+		<template Type = "Tweet">
+			<file>../templates/Tweet/Tweet_General.xml</file>
+			<file>../templates/Tweet/Tweet_V1.xml</file>
+			<file>../templates/Tweet/Tweet_V2.xml</file>
+		</template>
+		<!--
+		<template Type = "PhoneCall">
+			<file>../templates/PhoneCall/PhoneCall_General.xml</file>
+		</template>
+		
+		<template Type = "Facebook">
+			<file>../templates/Facebook/Facebook_General.xml</file>
+		</template>
+		
+		<template Type = "TextMessage">
+			<file>../templates/TextMessage/TextMessage_General.xml</file>
+		</template>
+		-->
+		
+		<!--<template Type = "FaultAlarm">../templates/faultAlarm/FaultAlarm.xml</template> -->
+		
 	</templates>
 
 	

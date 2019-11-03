@@ -1,0 +1,24 @@
+<Fuzzy>
+	<Speed>
+		<FuzzyMeasurment name = "Slow" conflict = "False">
+			<RangeMin>0</RangeMin>
+			<RangeMax>50</RangeMax>
+		</FuzzyMeasurment>
+		<FuzzyMeasurment name = "Slow-Fast" conflict = "True">
+			<RangeMin>51</RangeMin>
+			<RangeMax>70</RangeMax>
+		</FuzzyMeasurment>
+		<FuzzyMeasurment name = "Fast" conflict = "False">
+			<RangeMin>71</RangeMin>
+			<RangeMax>90</RangeMax>
+		</FuzzyMeasurment>
+		<FuzzyMeasurment name = "Fast-Very Fast" conflict = "True">
+			<RangeMin>91</RangeMin>
+			<RangeMax>100</RangeMax>
+		</FuzzyMeasurment>
+		<FuzzyMeasurment name = "Very Fast" conflict = "False">
+			<RangeMin>101</RangeMin>
+			<RangeMax>1000</RangeMax>
+		</FuzzyMeasurment>
+	</Speed>
+</Fuzzy>

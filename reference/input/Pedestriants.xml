@@ -1,0 +1,5 @@
+<pedestriants>
+	<pedestriant id="0">		
+		<attribute name="sex" value="male" />		
+	</pedestriant>	
+</pedestriants>

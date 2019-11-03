@@ -1,0 +1,8 @@
+<Contex>
+	<Location name = "Airpot"/>
+	<Location name = "School"/>
+	<Location name = "Hospital"/>
+	<Location name = "ShoppingCenter"/>
+	<Location name = "University"/>
+	<Location name = "PoliceCentre"/>
+</Contex>

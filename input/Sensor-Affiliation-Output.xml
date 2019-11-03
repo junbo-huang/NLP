@@ -1,0 +1,1563 @@
+<?xml version="1.0"?>
+<Sensor-Affiliation-Output>
+    <Sensor Type="People" ID="0-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="1-0">
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Ireland" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="1-1">
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="1-2">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="France" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="1-3">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="2-0">
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Trans" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="France" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="2-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="France" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="4-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Iran" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="6-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Iran" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="6-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Teacher" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="7-0">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Turkey" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="8-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Communist Party of Canada" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="8-1">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="8-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Ireland" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="9-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Trans" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Iran" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="9-1">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="11-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="France" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="12-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="14-0">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Communist Party of Canada" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="14-1">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="15-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="15-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="16-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="16-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Communist Party of Canada" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="16-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="16-3">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Female" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Turkey" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="17-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="17-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="China" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Teacher" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="18-0">
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="18-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Other" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="18-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="18-3">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="19-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="France" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="19-1">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Communist Party of Canada" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="19-2">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Trans" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="19-3">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="20-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Trans" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="20-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Teacher" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="20-2">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="20-3">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="21-0">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="22-0">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Teacher" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="22-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="22-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="China" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="25-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="25-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Communist Party of Canada" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="25-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Trans" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="26-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="27-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="France" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Teacher" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="27-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="27-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="28-0">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Communist Party of Canada" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="28-1">
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Teacher" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="30-0">
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="30-1">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Communist Party of Canada" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="France" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="30-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="30-3">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="UK" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="31-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="32-0">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="France" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="33-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="France" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Teacher" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="33-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="France" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="35-0">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Teacher" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="36-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Female" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="UK" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="38-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="UK" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="38-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="France" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Teacher" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="38-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="40-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="41-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="India" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="41-1">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="41-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="41-3">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="39-0">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="39-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Iran" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="42-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Communist Party of Canada" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="42-1">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Other" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Ireland" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="42-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Communist Party of Canada" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="43-0">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="44-0">
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="44-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="India" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="44-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="UK" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Teacher" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="44-3">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="45-0">
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="45-1">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Conservative" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="France" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Teacher" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="46-0">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Christianity" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Liberal" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Ireland" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="46-1">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Communist Party of Canada" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="46-2">
+        <Affiliations Type="Nationality">
+            <Name name="Turkish" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Christian Heritage" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Photographer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="47-0">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Buddhism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Other" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="China" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="47-1">
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Green Party" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Citizenships">
+            <Name name="Canada" />
+            <Name name="USA" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="47-2">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Communist Party of Canada" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Engineer" />
+        </Affiliations>
+    </Sensor>
+    <Sensor Type="People" ID="47-3">
+        <Affiliations Type="Nationality">
+            <Name name="Canadian" />
+        </Affiliations>
+        <Affiliations Type="Religion">
+            <Name name="Hinduism" />
+        </Affiliations>
+        <Affiliations Type="Political View">
+            <Name name="Democratic" />
+        </Affiliations>
+        <Affiliations Type="Sex">
+            <Name name="Male" />
+        </Affiliations>
+        <Affiliations Type="Job">
+            <Name name="Doctor" />
+        </Affiliations>
+    </Sensor>
+</Sensor-Affiliation-Output>

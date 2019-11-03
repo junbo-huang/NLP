@@ -1,0 +1,248 @@
+<vehicles>
+	<vehicle id="0">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="0-0" driver="yes" />
+	</vehicle>
+	<vehicle id="1">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="1-0" driver="yes" />
+		<person id="1-1" />
+		<person id="1-2" />
+		<person id="1-3" />
+	</vehicle>
+	<vehicle id="2">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="2-0" driver="yes" />
+		<person id="2-1" />
+	</vehicle>
+	<vehicle id="4">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="truck" />
+		<person id="4-0" driver="yes" />
+	</vehicle>
+	<vehicle id="6">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="6-0" driver="yes" />
+		<person id="6-1" />
+	</vehicle>
+	<vehicle id="7">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="7-0" driver="yes" />
+	</vehicle>
+	<vehicle id="8">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="8-0" driver="yes" />
+		<person id="8-1" />
+		<person id="8-2" />
+	</vehicle>
+	<vehicle id="9">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="truck" />
+		<person id="9-0" driver="yes" />
+		<person id="9-1" />
+	</vehicle>
+	<vehicle id="11">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="11-0" driver="yes" />
+	</vehicle>
+	<vehicle id="12">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="12-0" driver="yes" />
+	</vehicle>
+	<vehicle id="14">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="14-0" driver="yes" />
+		<person id="14-1" />
+	</vehicle>
+	<vehicle id="15">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="truck" />
+		<person id="15-0" driver="yes" />
+		<person id="15-1" />
+	</vehicle>
+	<vehicle id="16">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="16-0" driver="yes" />
+		<person id="16-1" />
+		<person id="16-2" />
+		<person id="16-3" />
+	</vehicle>
+	<vehicle id="17">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="17-0" driver="yes" />
+		<person id="17-1" />
+	</vehicle>
+	<vehicle id="18">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="18-0" driver="yes" />
+		<person id="18-1" />
+		<person id="18-2" />
+		<person id="18-3" />
+	</vehicle>
+	<vehicle id="19">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="19-0" driver="yes" />
+		<person id="19-1" />
+		<person id="19-2" />
+		<person id="19-3" />
+	</vehicle>
+	<vehicle id="20">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="20-0" driver="yes" />
+		<person id="20-1" />
+		<person id="20-2" />
+		<person id="20-3" />
+	</vehicle>
+	<vehicle id="21">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="21-0" driver="yes" />
+	</vehicle>
+	<vehicle id="22">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="truck" />
+		<person id="22-0" driver="yes" />
+		<person id="22-1" />
+		<person id="22-2" />
+	</vehicle>
+	<vehicle id="25">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="25-0" driver="yes" />
+		<person id="25-1" />
+		<person id="25-2" />
+	</vehicle>
+	<vehicle id="26">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="truck" />
+		<person id="26-0" driver="yes" />
+	</vehicle>
+	<vehicle id="27">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="27-0" driver="yes" />
+		<person id="27-1" />
+		<person id="27-2" />
+	</vehicle>
+	<vehicle id="28">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="28-0" driver="yes" />
+		<person id="28-1" />
+	</vehicle>
+	<vehicle id="30">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="30-0" driver="yes" />
+		<person id="30-1" />
+		<person id="30-2" />
+		<person id="30-3" />
+	</vehicle>
+	<vehicle id="31">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="31-0" driver="yes" />
+	</vehicle>
+	<vehicle id="32">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="32-0" driver="yes" />
+	</vehicle>
+	<vehicle id="33">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="33-0" driver="yes" />
+		<person id="33-1" />
+	</vehicle>
+	<vehicle id="35">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="truck" />
+		<person id="35-0" driver="yes" />
+	</vehicle>
+	<vehicle id="36">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="36-0" driver="yes" />
+	</vehicle>
+	<vehicle id="38">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="38-0" driver="yes" />
+		<person id="38-1" />
+		<person id="38-2" />
+	</vehicle>
+	<vehicle id="40">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="40-0" driver="yes" />
+	</vehicle>
+	<vehicle id="41">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="41-0" driver="yes" />
+		<person id="41-1" />
+		<person id="41-2" />
+		<person id="41-3" />
+	</vehicle>
+	<vehicle id="39">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="39-0" driver="yes" />
+		<person id="39-1" />
+	</vehicle>
+	<vehicle id="42">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="42-0" driver="yes" />
+		<person id="42-1" />
+		<person id="42-2" />
+	</vehicle>
+	<vehicle id="43">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="43-0" driver="yes" />
+	</vehicle>
+	<vehicle id="44">
+		<attribute name="color" value="blue" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="44-0" driver="yes" />
+		<person id="44-1" />
+		<person id="44-2" />
+		<person id="44-3" />
+	</vehicle>
+	<vehicle id="45">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="bus" />
+		<person id="45-0" driver="yes" />
+		<person id="45-1" />
+	</vehicle>
+	<vehicle id="46">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="46-0" driver="yes" />
+		<person id="46-1" />
+		<person id="46-2" />
+	</vehicle>
+	<vehicle id="47">
+		<attribute name="color" value="red" />
+		<attribute name="vehicle_type" value="car" />
+		<person id="47-0" driver="yes" />
+		<person id="47-1" />
+		<person id="47-2" />
+		<person id="47-3" />
+	</vehicle>
+</vehicles>

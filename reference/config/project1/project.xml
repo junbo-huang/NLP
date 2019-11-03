@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<project>
+	<inputs>
+		<events>
+			<event format="etf">../../input/Events.xml</event>
+			<!--<event format="etf">../../input/Events2.xml</event>-->
+		</events>
+		<reporters>
+			<source format="vehicle" trajectory-file="../../input/TestTraj.xml">../../input/vehicles.xml</source>
+			<source format="pedestriant" trajectory-file="../../input/PedTrajectories.csv">../../input/pedestriants.xml</source>	
+		</reporters>		
+	</inputs>
+	<config>
+		<sensor-parameters>../config/project1/Sensor_Configuration_Input.xml</sensor-parameters>
+		<SecondHandinfos>
+			<ID>../config/project1/Second-Hand-IDs.xml</ID>
+		</SecondHandinfos>
+		<affiliation>
+			<database>Affiliation.xml</database>
+			<affiliation-config>Sensor-Affiliation-Config.xml</affiliation-config>
+		</affiliation>
+	</config>
+	<outputs>
+		<output>
+			<format>xml</format>
+			<file>../output/pro1/data.xml</file>
+		</output>
+		<output>
+			<format>csv</format>
+			<file>../output/pro1/data.csv</file>
+		</output>		
+	</outputs>
+</project>

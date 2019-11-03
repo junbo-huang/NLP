@@ -1,0 +1,19 @@
+<Sensor-Affiliation-Config>
+	<Affiliation type = 'Nationality' prob = '0.9'>
+	</Affiliation>
+	<Affiliation type = 'Religion' prob = '0.8'>
+		<Name name = 'Christianity' prob = '0.6'/>
+		<Name name = 'Hinduism' prob = '0.3'/>
+		<Name name = 'Buddhism' prob = '0.5'/>
+	</Affiliation>
+	<Affiliation type = 'Political View' prob = '0.9'/>
+	<Affiliation type = 'Sex' prob = '0.9'>
+		<Name name = 'Male' prob = '0.3'/>		
+	</Affiliation>
+	<Affiliation type = 'Citizenships' prob = '0.8'>
+		<Name name = 'Canada,USA' prob = '0.3'/>
+		<Name name = 'Canada,France' prob = '0.1'/>
+		<Name name = 'USA' prob = '0.1'/>
+	</Affiliation>
+	<Affiliation type = 'Job' prob = '0.7'/>
+</Sensor-Affiliation-Config>

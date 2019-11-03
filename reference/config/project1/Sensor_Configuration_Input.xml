@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+
+<SensorConfig>
+	<ReferenceTime>
+		<Year>2018</Year>
+		<Month>4</Month>
+		<Day>12</Day>
+		<Hour>10</Hour>
+		<Minute>30</Minute>
+		<Second>0</Second>
+	</ReferenceTime>
+	<DataBase>
+		<Data name="Brand" fileName = "../config/project1/Brand.xml"/>
+		<Data name="Color" fileName = "../config/project1/Color.xml"/>
+		<Data name ="Speed" fileName = "../config/project1/Speed.xml"/>
+		<Data name ="PlateNumber" fileName = "../config/project1/StringIntegerConfusionMatrix.xml"/>
+		<Data name ="String-Integer" fileName = "../config/project1/StringIntegerConfusionMatrix.xml"/>
+	</DataBase>
+	<AdditionalDetails>
+		<Event name = "CarAccident" node = "VehicleInvolved" count = "CarNumberInAccident"/>
+		<Event name = "FireAccident" node = "BuildingInvolved" count = "buildingNumberInAccident"/>
+	</AdditionalDetails>
+	<OtherSources prob = "0.4"/>
+	<Sensor Type="People">
+		<EventReportingCapability>
+			<event type="FireAccident" effect="Castastrophic">
+				<ProbibilityOfResponding>
+	 				0.9
+				</ProbibilityOfResponding>
+				<GatingDistance>1480</GatingDistance>
+			</event>
+			<event type="CarAccident" effect="Castastrophic">
+				<ProbibilityOfResponding>
+	 				0.9
+				</ProbibilityOfResponding>
+				<GatingDistance>1480</GatingDistance>
+			</event>
+			<event type="CarAccident" effect="normal">
+				<ProbibilityOfResponding>
+	 				0.6 
+				</ProbibilityOfResponding>
+				<GatingDistance>1481</GatingDistance>
+			</event>
+			<event type="CarAccident" effect="minor">
+				<ProbibilityOfResponding>
+	 				0.9
+				</ProbibilityOfResponding>
+				<GatingDistance>1500</GatingDistance>
+			</event>
+		</EventReportingCapability>	
+		<ResponceToEvent>
+			<RespondType Type = "Tweet" prob = "0.9">
+				<measurement name="Brand" prob = "0.5" type = "Enum" address = "../config/project1/BrandConfusionMatrix.xml"/>					
+				<measurement name="Color" prob = "0.3" type = "Enum" address = "../config/project1/ColorConfusionMatrix.xml"/>					
+				<measurement name="PlateNumber" prob = "0.9" type = "String-Integer" address = "../config/project1/StringIntegerConfusionMatrix.xml">	
+				</measurement>
+				<measurement name="Location" prob = "0.6" type = "String">
+					<MeasurmentType Type= "Random" prob = "0.3"/>
+				</measurement>
+				<measurement name="PepopleNumberInAccident" prob = "0.9" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.5">
+						<!--Distribution name = "poisson_distribution"/!-->
+						<Distribution name = "uniform_distribution" min = "10" max = "20"/>
+						<!--Distribution name = "geometric_distribution" p = "0.5"/!-->
+						<!--Distribution name = "binomial_distribution" n = "9" p = "0.5"/!-->
+					</MeasurmentType>
+				</measurement>
+				<measurement name="CarNumberInAccident" prob = "0.1" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<!--Distribution name = "poisson_distribution"/!-->
+						<!--Distribution name = "uniform_distribution" min = "10" max = "20"/!-->
+						<!--Distribution name = "geometric_distribution" p = "0.5"/!-->
+						<Distribution name = "binomial_distribution" n = "9" p = "0.5"/>	
+					</MeasurmentType>
+				</measurement>
+
+				<measurement name="buildingNumberInAccident" prob = "0.7" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.7">
+						<!--Distribution name = "poisson_distribution"/!-->	
+						<Distribution name = "uniform_distribution" min = "10" max = "20"/>
+						<!--Distribution name = "geometric_distribution" p = "0.5"/!-->
+						<!--Distribution name = "binomial_distribution" n = "9" p = "0.5"/!-->
+					</MeasurmentType>
+				</measurement>
+				<measurement name="BuildingNumber" prob = "0.9" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.5">
+						<!--Distribution name = "poisson_distribution"/!-->	
+						<Distribution name = "uniform_distribution" min = "10" max = "20"/>
+						<!--Distribution name = "geometric_distribution" p = "0.5"/!-->
+						<!--Distribution name = "binomial_distribution" n = "9" p = "0.5"/!-->
+					</MeasurmentType>
+				</measurement>
+				<measurement name="NumberofDeath" prob = "0.8" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.6">
+						<!--Distribution name = "poisson_distribution"/!-->	
+						<Distribution name = "uniform_distribution" min = "10" max = "20"/>
+						<!--Distribution name = "geometric_distribution" p = "0.5"/!-->
+						<!--Distribution name = "binomial_distribution" n = "9" p = "0.5"/!-->
+					</MeasurmentType>
+				</measurement>
+				<measurement name="SuitNumber" prob = "0.9" type = "String-Integer" address = "../config/project1/StringIntegerConfusionMatrix.xml">	
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<Distribution name = "poisson_distribution"/>
+						<!--Distribution name = "uniform_distribution" min = "10" max = "20"/>
+ 						<Distribution name = "geometric_distribution" p = "0.5"/>
+ 						<Distribution name = "binomial_distribution" n = "9" p = "0.5"/!-->
+					</MeasurmentType>
+				</measurement>
+
+
+				<measurement name="NumberofPassengers" prob = "0.9" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.6">
+						<Distribution name = "poisson_distribution"/>
+						<!--Distribution name = "uniform_distribution" min = "10" max = "20"/>
+ 						<Distribution name = "geometric_distribution" p = "0.5"/>
+ 						<Distribution name = "binomial_distribution" n = "9" p = "0.5"/!-->
+					</MeasurmentType>
+				</measurement>
+				<measurement name="TotalNumberofPassengers" prob = "0.9" type = "Integer" sum="true" SumAttributes="NumberofPassengers">
+					<MeasurmentType Type= "Random" prob = "0.4">
+						<Distribution name = "poisson_distribution"/>
+						<!--Distribution name = "uniform_distribution" min = "10" max = "20"/>
+ 						<Distribution name = "geometric_distribution" p = "0.5"/>
+ 						<Distribution name = "binomial_distribution" n = "9" p = "0.5"/!-->
+					</MeasurmentType>
+				</measurement>
+				<measurement name="TotalPepopleNumberInAccident" prob = "0.9" type = "Integer" sum="true" SumAttributes="NumberofPassengers;NumberOfPedestrians">
+					<MeasurmentType Type= "Random" prob = "0.5">
+						<Distribution name = "poisson_distribution"/>
+						<!--Distribution name = "uniform_distribution" min = "10" max = "20"/>
+ 						<Distribution name = "geometric_distribution" p = "0.5"/>
+ 						<Distribution name = "binomial_distribution" n = "9" p = "0.5"/!-->
+					</MeasurmentType>
+				</measurement>
+				<measurement name="start_time" prob = "0.9" type = "Time">
+					<MeasurmentType Type= "Random" prob = "0.7">
+						<Distribution name = "poisson_distribution"/>
+						<!--Distribution name = "uniform_distribution" min = "10" max = "20"/>
+ 						<Distribution name = "geometric_distribution" p = "0.5"/>
+ 						<Distribution name = "binomial_distribution" n = "9" p = "0.5"/!-->
+					</MeasurmentType>
+				</measurement>
+				<measurement name="Speed" prob = "0.9" type = "Fuzzy" address = "../config/project1/Fuzzy.xml">
+					<MeasurmentType Type= "Random" prob = "0.2"/>
+				</measurement>
+			</RespondType>
+			<RespondType Type = "PhoneCall" prob = "0.7">
+				<measurement name="Brand" prob = "0.5" type = "Enum" address = "../config/project1/BrandConfusionMatrix.xml"/>					
+				<measurement name="Color" prob = "0.9" type = "Enum" address = "../config/project1/ColorConfusionMatrix.xml"/>	
+				<measurement name="PlateNumber" prob = "0.9" type = "String-Integer" address = "../config/project1/StringIntegerConfusionMatrix.xml">	
+				</measurement>
+
+				<measurement name="buildingNumberInAccident" prob = "0.7" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.7">
+						<Distribution name = "poisson_distribution"/>	
+					</MeasurmentType>
+				</measurement>
+
+				<measurement name="BuildingNumber" prob = "0.9" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.5">
+						<Distribution name = "poisson_distribution"/>	
+					</MeasurmentType>
+				</measurement>
+				<measurement name="NumberofDeath" prob = "0.8" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.6">
+						<Distribution name = "poisson_distribution"/>	
+					</MeasurmentType>
+				</measurement>
+				<measurement name="SuitNumber" prob = "0.9" type = "String-Integer" address = "../config/project1/StringIntegerConfusionMatrix.xml">	
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+
+				<measurement name="Location" prob = "0.6" type = "String">
+					<MeasurmentType Type= "Random" prob = "0.3"/>
+				</measurement>
+				<measurement name="PepopleNumberInAccident" prob = "0.2" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+				<measurement name="CarNumberInAccident" prob = "0.1" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+				<measurement name="TotalNumberofPassengers" prob = "0.9" type = "Integer" sum="true" SumAttributes="NumberofPassengers">
+					<MeasurmentType Type= "Random" prob = "0.4">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+				<measurement name="TotalPepopleNumberInAccident" prob = "0.9" type = "Integer" sum="true" SumAttributes="NumberofPassengers;NumberOfPedestrians">
+					<MeasurmentType Type= "Random" prob = "0.5">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+				<measurement name="start_time" prob = "0.9" type = "Time">
+					<MeasurmentType Type= "Random" prob = "0.5">
+						<Distribution name = "poisson_distribution"/>	
+					</MeasurmentType>
+				</measurement>
+				<measurement name="Speed" prob = "0.7" type = "Fuzzy" address = "../config/project1/Fuzzy.xml">
+					<MeasurmentType Type= "Random" prob = "0.2"/>
+				</measurement>
+			</RespondType>
+			<RespondType Type = "Facebook" prob = "0.4">
+				<measurement name="Brand" prob = "0.5" type = "Enum" address = "../config/project1/BrandConfusionMatrix.xml"/>					
+				<measurement name="Color" prob = "0.8" type = "Enum" address = "../config/project1/ColorConfusionMatrix.xml"/>	
+				<measurement name="PlateNumber" prob = "0.9" type = "String-Integer" address = "../config/project1/StringIntegerConfusionMatrix.xml">		
+				</measurement>
+				<measurement name="Location" prob = "0.6" type = "String">
+					<MeasurmentType Type= "Random" prob = "0.3"/>
+				</measurement>				
+				<measurement name="NumberOfPedestrians" prob = "0.2" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+				<measurement name="NumberofPassengers" prob = "0.2" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+				<measurement name="PepopleNumberInAccident" prob = "0.2" type = "Integer" sum="true" SumAttributes="NumberofPassengers;NumberOfPedestrians">
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+				<measurement name="TotalNumberofPassengers" prob = "0.2" type = "Integer" sum="true" SumAttributes="NumberofPassengers">
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+				<measurement name="CarNumberInAccident" prob = "0.9" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+				<measurement name="start_time" prob = "0.9" type = "Time">
+					<MeasurmentType Type= "Random" prob = "0.9">
+						<Distribution name = "poisson_distribution"/>	
+					</MeasurmentType>
+				</measurement>
+				<measurement name="Speed" prob = "0.7" type = "Fuzzy" address = "../config/project1/Fuzzy.xml">
+					<MeasurmentType Type= "Random" prob = "0.1"/>
+				</measurement>
+			</RespondType>
+			<RespondType Type = "TextMessage" prob = "0.2">
+				<measurement name="Brand" prob = "0.5" type = "Enum" address = "../config/project1/BrandConfusionMatrix.xml"/>					
+				<measurement name="Color" prob = "0.3" type = "Enum" address = "../config/project1/ColorConfusionMatrix.xml"/>	
+				<measurement name="PlateNumber" prob = "0.9" type = "String-Integer" address = "../config/project1/StringIntegerConfusionMatrix.xml">		
+				</measurement>
+				<measurement name="Location" prob = "0.6" type = "String">
+					<MeasurmentType Type= "Random" prob = "0.3"/>
+				</measurement>
+				<measurement name="PepopleNumberInAccident" prob = "0.2" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+				<measurement name="CarNumberInAccident" prob = "0.9" type = "Integer">
+					<MeasurmentType Type= "Random" prob = "0.3">
+						<Distribution name = "poisson_distribution">
+						</Distribution>
+					</MeasurmentType>
+				</measurement>
+				<measurement name="start_time" prob = "0.9" type = "Time">
+					<MeasurmentType Type= "Random" prob = "0.6">
+						<Distribution name = "poisson_distribution"/>	
+					</MeasurmentType>
+				</measurement>
+				<measurement name="Speed" prob = "0.7" type = "Fuzzy" address = "../config/project1/Fuzzy.xml">
+					<MeasurmentType Type= "Random" prob = "0.1"/>
+				</measurement>
+			</RespondType>
+		</ResponceToEvent>
+	</Sensor>
+</SensorConfig>

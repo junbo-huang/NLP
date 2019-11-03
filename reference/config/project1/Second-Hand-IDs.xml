@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Second-Hand-Sensors>
+    <Sensor ID="sh-1" fusionMethod = "Accuracy" eventID = "E1" respondtype="Tweet">
+        <ReadFrom  ID ="59" respondtype="PhoneCall"/>
+        <ReadFrom  ID ="158" respondtype="Video"/>
+        <Infos Type="selected">
+            <Info Name="Speed"/>
+            <Info Name="Brand" fusionMethod="Majority"/>
+            <Info Name="Color" fusionMethod="Majority"/>
+        </Infos>
+    </Sensor>
+    <Sensor ID="sh-3" fusionMethod = "Majority" eventID = "E2" respondtype="PhoneCall">
+        <ReadFrom  ID ="1-0" respondtype="PhoneCall"/>
+        <ReadFrom  ID ="110" respondtype="Video"/>
+        <ReadFrom  ID ="4-0" respondtype="Video"/>
+        <Infos Type="all"/>
+       
+    </Sensor>
+    <Sensor ID="sh-2" fusionMethod = "Accuracy" eventID = "E3" respondtype="TextMessage">
+        <ReadFrom respondtype="Video">
+            <min>4</min>
+            <max>10</max>
+        </ReadFrom>
+        <Infos Type="selected">
+            <Info Name="CarNumberInAccident" fusionMethod = "Accuracy"/>
+            <Info Name="Speed" fusionMethod = "Accuracy"/>
+            <Info Name="Brand" fusionMethod="Majority"/>
+        </Infos>
+    </Sensor>
+</Second-Hand-Sensors>

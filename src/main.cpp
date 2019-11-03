@@ -17,20 +17,22 @@ int main(int argc, char* argv[]) {
 	else {
 		std::string inputPath = config.get_inputPath();
 		std::string outputPath = config.get_outputPath();
-		templateInfos templateFiles = config.get_templates();
+		std::map<std::string, std::vector<std::string>> templateFiles = config.get_templates();
 
 		dataReader xmlReader(inputPath);
-		writer fileWriter(outputPath);
+		//writer fileWriter(outputPath);
 
 		Messages messages;
-		
+		std::map<std::string, std::map<std::string, std::string>> sensor_aff_map;
 
 		float duration;
 		std::clock_t start = std::clock();//clock start
 
-		xmlReader.read_data(&messages);
+		xmlReader.get_data(&messages);
+		xmlReader.get_sensor_aff(sensor_aff_map);
+		xmlReader.get_template_data(templateFiles);
 
-		fileWriter.write_soft_data(templateFiles, messages);
+		//fileWriter.write_soft_data(templateFiles, messages);
 
 		duration = (std::clock() - start) / (float)CLOCKS_PER_SEC;//clock end
 		std::cout << duration << std::endl;

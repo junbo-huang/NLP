@@ -1,0 +1,9 @@
+<Speeds>
+	<Speed name = "Slow"/>
+	<Speed name = "Kind of slow"/>
+	<Speed name = "So slow"/>
+	<Speed name = "Fast"/>
+	<Speed name = "Kind of fast"/>
+	<Speed name = "A little fast"/>
+	<Speed name = "Very fast"/>
+</Speeds>

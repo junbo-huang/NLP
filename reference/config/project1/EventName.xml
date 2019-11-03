@@ -1,0 +1,7 @@
+<EventName>
+	<Event name = "FireAccident"/>
+	<Event name = "Explosion"/>
+	<Event name = "kidnapping"/>
+	<Event name = "SuicideAttack"/>
+	<Event name = "Trafficjam"/>
+</EventName>

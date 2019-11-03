@@ -1,0 +1,55 @@
+<confusionMatrix random="true" default-diagonal-Values="0.5">
+	<row value = "Yellow">
+		<column value ="Yellowish" prob="0.5"/>
+		<column value ="Kind of yellow" prob="0.1"/>
+		<column value ="Orange" prob="0.1"/>
+		<column value ="Close to yellow" prob="0.1"/>
+		<column value ="Yellow" prob="0.1"/>
+	</row>
+	<row value = "Black">
+		<column value ="Bluish" prob="0.1"/>
+		<column value ="Blue" prob="0.3"/>
+		<column value ="Red" prob="0.1"/>
+		<column value ="Black" prob="0.4"/>
+		<column value ="Green" prob="0.1"/>
+	</row>
+	<row value = "Blue">
+		<column value ="Bluish" prob="0.5"/>
+		<column value ="Blue" prob="0.4"/>
+		<column value ="Near to blue" prob="0.3"/>
+		<column value ="Kind of blue" prob="0.1"/>
+		<column value ="Red" prob="0.1"/>
+	</row>
+	<row value = "Red">
+		<column value ="Reddish" prob="0.2"/>
+		<column value ="Red" prob="0.5"/>
+		<column value ="Kind of red" prob="0.1"/>
+		<column value ="Orange" prob="0.1"/>
+		<column value ="Yellow" prob="0.1"/>
+		
+	</row>
+	<row value = "Brown">
+		<column value ="Yellow" prob="0.1"/>
+		<column value ="Black" prob="0.1"/>
+		<column value ="Brown" prob="0.6"/>
+		<column value ="Red" prob="0.1"/>
+		<column value ="Green" prob="0.1"/>
+	</row>
+	<row value = "Green">
+		<column value ="Greenish" prob="0.1"/>
+		<column value ="Close to green" prob="0.1"/>
+		<column value ="Kind of green" prob="0.1"/>
+		<column value ="Green" prob="0.6"/>
+		<column value ="Red" prob="0.1"/>
+	</row>
+	<row value = "Gray">
+		<column value ="Gray" prob="0.8"/>
+		<column value ="Black" prob="0.1"/>
+		<column value ="Brown" prob="0.1"/>
+	</row>
+	<row value = "White">
+		<column value ="White" prob="0.5"/>
+		<column value ="Yellow" prob="0.2"/>
+		<column value ="Red" prob="0.3"/>
+	</row>
+</confusionMatrix>

@@ -10,7 +10,6 @@
 
 #ifndef DEFAULT_OUTPATH
 #define DEFAULT_OUTPATH "../output/"
-#define DEFAULT_INPATH "../input/data.xml"
 #endif
 
 
@@ -28,18 +27,21 @@ struct Info {
 };
 
 struct Message {
-	report reportInfo;
+	struct report reportInfo;
 	std::vector<Info> eventInfos;
 };
 
 typedef std::vector<Message> Messages;
 
-struct templateInfo {
-	std::string type;
-	std::string path;
+struct variation {
+	unsigned int posibility;
+	std::string content;
 };
 
-typedef std::vector<templateInfo> templateInfos;
+struct templateInfo {
+	std::map<std::string, std::string> templateAttr;
+	std::map<std::string, std::vector<variation>> Messagelibrary;
+};
 
 //struct structTag2 {
 //

@@ -27,21 +27,26 @@ bool Config::initialize(std::string& xo_message) {
 		xmlreader_light::nodes_type template_nodes = configReader.get_nodes(_S("config/templates/template"));
 		for (auto& node : template_nodes) {
 
-			struct templateInfo _template;
-			_template.type = configReader.get_attribute_value<std::string>(node, _S("Type"), "");
-			_template.path = node.node().first_child().value();
+			std::string template_type = configReader.get_attribute_value<std::string>(node, _S("Type"), "");
+			std::vector<std::string> template_files;
 
-			if (_template.path.empty()) {
-				throw std::exception("template file path cannot be empty.");
+			xmlreader_light::nodes_type file_nodes = configReader.get_nodes(node, _S("file"));
+
+			for (auto& file_node : file_nodes) {
+				template_files.push_back(file_node.node().first_child().value());
 			}
-			else if (_template.type.empty()) {
+
+			if (template_files.empty()) {
+				throw std::exception("template file(s) path must be provided.");
+			}
+			if (template_type.empty()) {
 				throw std::exception("template type cannot be empty.");
 			}
 
-			templates.push_back(_template);
+			templates.insert(std::pair<std::string, std::vector<std::string>> (template_type, template_files));
 
 		}
-		return true;
+
 	}
 	catch (std::exception& err) {
 		xo_message = err.what();

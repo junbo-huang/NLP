@@ -25,6 +25,16 @@
 		<!--<template Type = "FaultAlarm">../templates/faultAlarm/FaultAlarm.xml</template> -->
 		
 	</templates>
+	
+	<sensors>
+		<sensor possibility = "60">
+			<type aff-sex = "male" aff-nat = "Canadian"></type>
+		</sensor>
+		
+		<sensor possibility = "40">
+			<type aff-sex = "female" aff-nat = "Canadian"></type>
+		</sensor>
+	</sensors>
 
 	
 </config>

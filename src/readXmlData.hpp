@@ -30,7 +30,7 @@ public:
 
 	bool get_data(Messages* mesPtr);
 	bool get_sensor_aff(std::map<std::string, std::map<std::string, std::string>>& aff_map);
-	bool get_template_data(std::map<std::string, std::vector<std::string>>& templateFiles);
+	bool get_template_data(std::map<std::string, std::vector<std::string>>& templateFiles, std::map<std::string, std::vector<templateInfo>>& templateLibrary);
 
 };
 

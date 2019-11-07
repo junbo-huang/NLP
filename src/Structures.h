@@ -38,9 +38,13 @@ struct variation {
 	std::string content;
 };
 
+struct messageType {
+	bool isVector;
+	std::vector<variation> variations;
+};
 struct templateInfo {
 	std::map<std::string, std::string> templateAttr;
-	std::map<std::string, std::vector<variation>> Messagelibrary;
+	std::map<std::string, messageType> Messagelibrary;
 };
 
 //struct structTag2 {

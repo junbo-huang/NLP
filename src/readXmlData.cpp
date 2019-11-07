@@ -87,13 +87,14 @@ bool dataReader::get_sensor_aff(std::map<std::string, std::map<std::string, std:
 }
 
 
-bool dataReader::get_template_data(std::map<std::string, std::vector<std::string>>& templateFiles) {
+bool dataReader::get_template_data(std::map<std::string, std::vector<std::string>>& templateFiles, std::map<std::string, std::vector<templateInfo>>& templateLibrary) {
 
-	std::map<std::string, templateInfo> templateLibrary;
+	
 
 	for (auto it = templateFiles.begin(); it != templateFiles.end(); it++) {
 
-		templateInfo temp;
+		std::vector<templateInfo> tempTemplates;
+		
 
 		for (auto& file : it->second) {
 			if (!template_file_reader.load(file)) {
@@ -101,24 +102,44 @@ bool dataReader::get_template_data(std::map<std::string, std::vector<std::string
 				return false;
 			}
 
-			xmlreader_light::node_type tempNode = template_file_reader.get_node(_S("template"));
+			templateInfo tempTemplate;
+			xmlreader_light::node_type tempMasterNode = template_file_reader.get_node(_S("template"));
 
-			auto atts = tempNode.node().attributes();
+			auto atts = tempMasterNode.node().attributes();
 			for (auto a = atts.begin(); a != atts.end(); a++)
 			{
-				string_type value = (*a).as_string();
-				string_type name  = (*a).name();
-				bool test = true;
+				std::string name = (*a).name(); //get the name of the template attribute
+				std::string value = (*a).as_string(); // get the value of the template attribute
 				
+				tempTemplate.templateAttr.insert(std::make_pair(name, value));
+			}
+
+			xmlreader_light::nodes_type tempMasterChildren = template_file_reader.get_nodes(tempMasterNode,_S("info"));
+			
+			for (auto& child : tempMasterChildren) {
+				messageType tempMessageType;
+				tempMessageType.isVector = template_file_reader.get_attribute_value<bool>(child, _S("isVector"), false);
+				
+				xmlreader_light::nodes_type tempMasterGrandChildren = template_file_reader.get_nodes(child, _S("variation"));
+
+				for (auto& grandChild : tempMasterGrandChildren) {
+					variation tempVariation;
+					tempVariation.posibility = grandChild.node().first_attribute().as_uint();
+					tempVariation.content = grandChild.node().first_child().value();
+					tempMessageType.variations.push_back(tempVariation);
+				}
+
+
+				std::string tempInfoType = template_file_reader.get_attribute_value<std::string>(child, _S("Type"), "");
+				tempTemplate.Messagelibrary.insert(std::make_pair(tempInfoType, tempMessageType));
 			}
 			
-			std::string attr = template_file_reader.get_attribute_value<std::string>(tempNode, _S("aff-sex"), "");
-			auto attr_1 = tempNode.node().attributes();
 			
+			tempTemplates.push_back(tempTemplate);
 		}
 
 
-		templateLibrary.insert(std::make_pair(it->first, temp));
+		templateLibrary.insert(std::make_pair(it->first, tempTemplates));
 
 		
 	}

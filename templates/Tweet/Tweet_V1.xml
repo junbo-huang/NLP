@@ -1,21 +1,21 @@
-<template aff-sex="male" aff-rel="hin" >
+<template Sex="Male" Nationality="Canadian" Religion="Hinduism" >
 	<info Type = "Location" isVector = "false">
-		<variation possibility = "40">There was an accident on %s.</variation>
-		<variation possibility = "30">A horrific accident occured on %s.</variation>
+		<variation possibility = "40">222There was an accident on %s.</variation>
+		<variation possibility = "30">222A horrific accident occured on %s.</variation>
 		<variation possibility = "30">According to the report, a terrifying accident took place on %s.</variation>
 	</info>
 	<info Type = "CarNumberInAccident" isVector = "false">
-		<variation possibility = "40">There were an %s cars involved in the accident.</variation>
+		<variation possibility = "40">222There were an %s cars involved in the accident.</variation>
 		<variation possibility = "60">%s cars were crashed during the accident.</variation>
 	</info>
 	<info  Type = "TotalNumberofPassengers" isVector = "false">
-		<variation possibility = "40">%s people were injuried during the accident.</variation>
+		<variation possibility = "40">222%s people were injuried during the accident.</variation>
 		<variation possibility = "60">There were %s passengers involved, none of them were severely injuried</variation>
 	</info>
-	<info  Type = "Color" isVector = "true">
-		<variation possibility = "40">There were a %S car and a %S car.</variation>
+	<!-- <info  Type = "Color" isVector = "true">
+		<variation possibility = "40">There were a %s car and a %s car.</variation>
 		<variation possibility = "60">The car that is %s crashed in to the %s car.</variation>
-	</info>
+	</info> -->
 
 	<!-- <Brand isVector = "true"> -->
 		<!-- <variation> </variation> -->

@@ -34,7 +34,7 @@ struct Message {
 typedef std::vector<Message> Messages;
 
 struct variation {
-	unsigned int posibility;
+	unsigned int possibility;
 	std::string content;
 };
 

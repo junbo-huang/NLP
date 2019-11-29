@@ -1,3 +1,8 @@
+#ifdef _MSC_VER
+#define _CRT_SECURE_NO_WARNINGS
+#endif
+
+
 #include <iostream>
 #include <xmlreader_light.hpp>
 #include <map>
@@ -9,12 +14,13 @@
 #define wrtiesoftdata_hpp
 
 
+
 class dataWriter
 {
 private:
 
 	std::string outputPath;
-	std::string outputFile;
+	//std::string outputFile;
 
 	//xmlreader_light templatereader;
 	//messages filteredmes;
@@ -25,9 +31,9 @@ private:
 	messages facebook;
 	messages textmessage;*/
 
-	void write_template_message(messages& mes);
+	void write_template_message(std::string& outPath, Message& data, std::map<std::string, messageType>& currentTemplate);
 
-	//void choose_template(std::string& outstring, xmlreader_light::nodes_type& vars);
+	void randomize(std::string& outString, std::vector<variation>& vars);
 	
 
 public:

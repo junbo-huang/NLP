@@ -124,7 +124,7 @@ bool dataReader::get_template_data(std::map<std::string, std::vector<std::string
 
 				for (auto& grandChild : tempMasterGrandChildren) {
 					variation tempVariation;
-					tempVariation.posibility = grandChild.node().first_attribute().as_uint();
+					tempVariation.possibility = grandChild.node().first_attribute().as_uint();
 					tempVariation.content = grandChild.node().first_child().value();
 					tempMessageType.variations.push_back(tempVariation);
 				}
